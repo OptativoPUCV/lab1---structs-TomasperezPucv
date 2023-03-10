@@ -37,3 +37,13 @@ exercises.c:42:25: error: ‘cmp’ undeclared (first use in this function); did
 exercises.c:42:25: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 34b4212
+Fri 10 Mar 2023 12:05:12 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘arrayMaxMin’:
+exercises.c:42:3: error: void value not ignored as it ought to be
+   42 |   qsort(a,n,sizeof(int),cmp)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Compilation failed
+2221ace
