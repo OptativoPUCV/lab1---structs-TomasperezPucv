@@ -31,7 +31,7 @@ int cmp (const void *pivote, const void *element)
   int *ptrpivote = (int*)pivote;
   int *ptrelemen = (int*)element;
 
-  if(*ptrpivote < *ptrelemen)
+  if(*ptrpivote > *ptrelemen)
   {
     return 1;
   }
