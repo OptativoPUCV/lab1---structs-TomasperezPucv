@@ -31,7 +31,7 @@ int cmp (const void *pivote, const void *element)
   int *ptrpivote = (int*)pivote;
   int *ptrelemen = (int*)element;
 
-  if(*ptrpivote > *ptrelemen)
+  if(*ptrpivote < *ptrelemen)
   {
     return 1;
   }
@@ -41,7 +41,7 @@ int cmp (const void *pivote, const void *element)
 void arrayMaxMin(int *a, int n, int *max, int *min) {
   qsort(a,n,sizeof(int),cmp)
   *min=a[0];
-  *max=a[n];
+  *max=a[n-1];
 }
 
 
