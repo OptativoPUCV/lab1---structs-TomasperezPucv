@@ -21,3 +21,19 @@ Fri 10 Mar 2023 11:53:26 AM UTC:
  tests:  1|6
 total_score: 10/70
 8e36c83
+Fri 10 Mar 2023 12:04:54 PM UTC: 
+ exercises.c | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c:29:30: error: unknown type name ‘cons’; did you mean ‘const’?
+   29 | int cmp (const void *pivote, cons void *element)
+      |                              ^~~~
+      |                              const
+exercises.c: In function ‘arrayMaxMin’:
+exercises.c:42:25: error: ‘cmp’ undeclared (first use in this function); did you mean ‘bcmp’?
+   42 |   qsort(a,n,sizeof(int),cmp)
+      |                         ^~~
+      |                         bcmp
+exercises.c:42:25: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+34b4212
