@@ -39,7 +39,7 @@ int cmp (const void *pivote, const void *element)
 }
 
 void arrayMaxMin(int *a, int n, int *max, int *min) {
-  qsort(a,n,sizeof(int),cmp)
+  qsort(a,n,sizeof(int),cmp);
   *min=a[0];
   *max=a[n-1];
 }
