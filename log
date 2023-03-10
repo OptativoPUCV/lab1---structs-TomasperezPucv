@@ -4,3 +4,14 @@ Thu 09 Mar 2023 03:54:41 PM UTC:
  tests:  0|7
 total_score: 0/70
 99a8040
+Fri 10 Mar 2023 11:53:12 AM UTC: 
+ exercises.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘swap’:
+exercises.c:16:7: error: unused variable ‘aux’ [-Werror=unused-variable]
+   16 |   int aux= *a;
+      |       ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+1046ae0
