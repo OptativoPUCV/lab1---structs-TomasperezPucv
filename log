@@ -277,3 +277,8 @@ exercises.c:69:3: error: ignoring return value of ‘scanf’ declared with attr
 cc1: all warnings being treated as errors
 Compilation failed
 b9e54e6
+Fri 17 Mar 2023 11:35:33 AM UTC: 
+ exercises.c | 8 +++-----
+ 1 file changed, 3 insertions(+), 5 deletions(-)
+ tests:  0|0
+6f0ca59
