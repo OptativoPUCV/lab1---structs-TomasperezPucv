@@ -318,3 +318,16 @@ Fri 17 Mar 2023 11:42:34 AM UTC:
  tests:  3|4
 total_score: 30/70
 8e45dcd
+Fri 17 Mar 2023 11:43:30 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:86:22: error: expected expression before ‘Vector’
+   86 |   Vector *vector = (*Vector)calloc(n,sizeof(Vector));
+      |                      ^~~~~~
+exercises.c:86:29: error: expected ‘,’ or ‘;’ before ‘calloc’
+   86 |   Vector *vector = (*Vector)calloc(n,sizeof(Vector));
+      |                             ^~~~~~
+Compilation failed
+9cf9a19
