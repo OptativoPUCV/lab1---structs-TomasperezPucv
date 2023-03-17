@@ -88,7 +88,7 @@ Vector * crearVector(int n) {
   if(v==NULL) exit(1);
   v-> datos= (int*)calloc(n,sizeof(int));
   
-  return vector;
+  return v;
 }
 
 /*
