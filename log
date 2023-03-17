@@ -331,3 +331,9 @@ exercises.c:86:29: error: expected ‘,’ or ‘;’ before ‘calloc’
       |                             ^~~~~~
 Compilation failed
 9cf9a19
+Fri 17 Mar 2023 11:43:40 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+0429bd2
