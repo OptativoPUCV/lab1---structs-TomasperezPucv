@@ -69,3 +69,14 @@ Fri 10 Mar 2023 12:08:17 PM UTC:
  tests:  2|5
 total_score: 20/70
 4bb4e92
+Fri 17 Mar 2023 11:23:03 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:65:23: error: ‘p’ is a pointer; did you mean to use ‘->’?
+   65 |   scanf("%s[29^\n]", p.nombre);
+      |                       ^
+      |                       ->
+Compilation failed
+7d46dae
