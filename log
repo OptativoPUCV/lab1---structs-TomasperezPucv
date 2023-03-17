@@ -363,3 +363,19 @@ Fri 17 Mar 2023 11:47:40 AM UTC:
  tests:  3|4
 total_score: 30/70
 7f9d1b8
+Fri 17 Mar 2023 11:54:28 AM UTC: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:88:6: error: ‘vector’ undeclared (first use in this function); did you mean ‘Vector’?
+   88 |   if(vector==NULL) exit(1);
+      |      ^~~~~~
+      |      Vector
+exercises.c:88:6: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:92:1: error: control reaches end of non-void function [-Werror=return-type]
+   92 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+c3439dd
